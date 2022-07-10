@@ -47,3 +47,22 @@ Bolme islemini bitirdikten sonra tum elemanlar karsilastirilip sirali bir dizi s
 [8,11,12,16,21,22]
 
 Big-O = (nlogn) olarak karsimiza cikar
+
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+7'yi root olarak alabiliriz.
+dizideki sayilara sirasi ile bakilir. Eger 7den buyukse 7nin sagina eger kucukse soluna yazilir.
+Daha sonradan gelen sayilar da 7nin altinda bulunan sayilara ayni kurala gore yazilir.
+
+              7
+        5           8
+
+    1     6             9
+    
+  0     3 
+      2   4
+    
+Binary search tree'mizin son hali bu sekildedir.
