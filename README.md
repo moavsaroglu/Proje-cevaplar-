@@ -28,3 +28,22 @@ Insertion Sort'a göre ilk 4 adımı:
 3-[2,3,4,8,7,9,5,15,6]
 4-[2,3,4,5,7,9,8,15,6]
 5-[2,3,4,5,6,9,8,15,7]
+
+
+Proje 2:
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+
+Diziyi 2'ye boluyoruz.
+[16,21,11] [8,12,22]
+Bu dizileri kendi aralarında tekrar ikiye boluyoruz.
+[16,21] [11] [8,12] [22]
+Tum dizileri tek eleman kalana kadar bolmeye devam ediyoruz.	
+[16] [21] [11] [8] [12] [22]
+Bolme islemini bitirdikten sonra tum elemanlar karsilastirilip sirali bir dizi seklinde birlestiriliyor.	
+[8,11,12,16,21,22]
+
+Big-O = (nlogn) olarak karsimiza cikar
